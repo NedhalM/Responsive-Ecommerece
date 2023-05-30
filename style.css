@@ -1100,4 +1100,26 @@ footer h4 {
   .about_video video {
     width: 80vw;
   }
+  /* contact */
+  #location {
+    flex-direction: column;
+  }
+  .location_details {
+    width: 100%;
+    margin: 1rem;
+  }
+  .map {
+    width: 100%;
+  }
+  #contact_form {
+    flex-direction: column;
+    padding: 0.7rem;
+  }
+  .people {
+    align-items: start;
+    padding: 1rem 0;
+  }
+  .ppls_details {
+    margin: 0.3rem 0;
+  }
 }

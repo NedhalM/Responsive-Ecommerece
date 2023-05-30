@@ -582,8 +582,8 @@ footer h4 {
   width: 2rem;
   height: 0.1rem;
   background-color: rgb(141, 134, 134);
-  position: absolute;
-  top: 10.2rem;
+  position: relative;
+  top: -0.2rem;
   cursor: pointer;
 }
 #blog_container .blog_details a:hover {
@@ -927,7 +927,6 @@ footer h4 {
   }
   #blog_container .blog_details a::after {
     width: 4rem;
-    top: 11.2rem;
   }
 
   #shero {
@@ -1079,7 +1078,6 @@ footer h4 {
   }
   #blog_container .blog_details a::after {
     width: 5rem;
-    top: 26.7rem;
   }
   #about_sec {
     display: flex;

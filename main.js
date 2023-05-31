@@ -17,8 +17,8 @@ if (close) {
 }
 // Shop section
 
-let MainImg = document.getElementById("MainImg");
-let smallimg = document.getElementsByClassName("small_img");
+let MainImg = document.getElementById(".mainImg");
+let smallimg = document.getElementsByClassName(".small_img");
 
 smallimg[0].onclick = function () {
     MainImg.src = smallimg[0].src;

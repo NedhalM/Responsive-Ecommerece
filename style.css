@@ -1137,7 +1137,7 @@ footer h4 {
     flex-direction: column;
   }
   .cart_box {
-    margin: 0;
+    margin: 1rem 0;
   }
   .cart_box table {
     width: 100%;

@@ -771,10 +771,9 @@ footer h4 {
 /* coupon */
 #final_price {
   display: flex;
-  /* justify-content: space-between; */
 }
 .coupon {
-  width: 45%;
+  /* width: 45%; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -782,10 +781,12 @@ footer h4 {
 }
 .apply_btn {
   margin: 0.6rem 0;
+  display: flex;
 }
 .apply_btn input {
   width: 16rem;
   padding: 0.42rem;
+  margin: 0 0.5rem;
   border: 1px solid #e2e9e1;
 }
 .apply_btn button {
@@ -805,7 +806,7 @@ footer h4 {
 .cart_box table {
   margin: 1rem 0;
   border-collapse: collapse;
-  width: 26rem;
+  width: 40vw;
 }
 .cart_box table td {
   border: 1px solid #e2e9e1;
@@ -962,6 +963,17 @@ footer h4 {
   }
   #contact_form {
     padding: 50px;
+  }
+  #purchase_container {
+    overflow: scroll;
+  }
+  .coupon {
+    padding: 0;
+    width: 40%;
+  }
+  .cart_box table {
+    margin: 0;
+    width: 40vw;
   }
 }
 @media (max-width: 477px) {
@@ -1121,5 +1133,14 @@ footer h4 {
   }
   .ppls_details {
     margin: 0.3rem 0;
+  }
+  #final_price {
+    flex-direction: column;
+  }
+  .cart_box {
+    margin: 0;
+  }
+  .cart_box table {
+    width: 100%;
   }
 }
